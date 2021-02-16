@@ -1,2 +1,3 @@
 # java
-Java Laboratories
+
+Amarghioalei Alexandru IIIB5, grupa X.

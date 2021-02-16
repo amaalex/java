@@ -1,1 +1,16 @@
-Aici vor fi explicatiile
+In main mi-am creat un obiect de tipul main ca sa pot accesa si celelalte functii.
+
+Am afisat acel string de inceput, apoi mi-am creat string-ul nou.
+
+Am apelat functia nConstruct() care construieste acel N dupa cerintele prezentate de dumneavoastra pe pagina, iar la final am returnat N-ul dupa toate operatiile, N care a fost atribuit unei variabile locale din main.
+
+Am creat o noua variabila result, careia i-a fost atribuita valoarea functiei object.compute(n), unde n este cel calculat prin object.nConstruct().
+Tot ceea ce face compute e sa adune cifra cu cifra pana cand numarul nu este >10.
+
+Rezultatul este pun in result, iar daca result are mai mult de doua cifre, se repeta procedeul.
+
+Rezultatul pentru result va fi 9, iar languages[result] va fi Java.
+
+Rezultat la compilare: Willy-nilly, this semester I will learn Java
+
+

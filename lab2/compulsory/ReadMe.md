@@ -1,8 +1,11 @@
 Problem Description
 
 ✅ Create an object-oriented model of the problem. You should have (at least) the following classes: Source, Destination, Problem.
+
 ✅ The sources and the destinations have names. 
+
 ✅ The sources will also have the property type. 
+
 ✅ The available types will be implemented as an enum . 
 
 For example:

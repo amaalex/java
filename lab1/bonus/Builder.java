@@ -7,6 +7,10 @@ import java.util.Map;
 
 public class Builder {
 
+    /**
+     * This function simulates a list of Wods
+     * @return a list of words.
+     */
     List<String> wordsBuilder(){
         List<String> words = new ArrayList<>(){
             {
@@ -36,6 +40,11 @@ public class Builder {
         return words;
     }
 
+    /**
+     *
+     * @param words is a list of words already built
+     * @return a map containing the number of occurrences of each letter (but not duplicates)
+     */
     Map<Character,Integer> wordStatisticsBuilder(List<String> words){
         Map<Character,Integer> myMap = new HashMap<>();
         for(String word : words){
@@ -60,6 +69,12 @@ public class Builder {
         return myMap;
     }
 
+    /**
+     *
+     * @param words a list of words already built
+     * @param character the predominant letter from all words (maximum number of occurrences)
+     * @return SubWords (3 letters) starting from Words already provided.
+     */
     List<String> subWordsBuilder(List<String> words, Character character){
         List<String> subWords = new ArrayList<>();
 

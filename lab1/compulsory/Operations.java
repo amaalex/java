@@ -35,17 +35,17 @@ class Operations {
      * @return the final sum
      *
      */
-    int sumOfDigits(int number){
+        int sumOfDigits(int number){
         int sum = 0;
         while(number != 0)
         {
             sum = sum + (number % 10);
             number = number / 10;
+            if (number == 0 && sum > 9){
+                    number = sum;
+                    sum = 0;
+            }
         }
-        while (sum != 0){
-            number = number + (sum % 10);
-            sum = sum / 10;
-        }
-        return number;
+        return sum;
     }
 }

@@ -11,3 +11,4 @@
   - :heavy_check_mark: Display on the screen the message: "Willy-nilly, this semester I will learn " + languages[result].
 
 ## Output
+![image](https://user-images.githubusercontent.com/61457770/155884678-25a7dee2-0eef-478e-b954-80eac3b08794.png)

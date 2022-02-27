@@ -4,10 +4,10 @@ package lab2.compulsory;
  * this class builds how an Event should look like, based on specific attributes
  */
 public class Event {
-    String name;
-    int size;
-    int startTime;
-    int endTime;
+    private String name;
+    private int size;
+    private int startTime;
+    private int endTime;
 
     // constructors
     Event(String name) {

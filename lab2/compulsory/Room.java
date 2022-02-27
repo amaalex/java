@@ -4,9 +4,9 @@ package lab2.compulsory;
  * this class builds how an Room should look like, based on specific attributes
  */
 public class Room {
-    String name;
-    Type type;
-    int capacity;
+    private String name;
+    private Type type;
+    private int capacity;
 
     // constructors
     Room(String name) {

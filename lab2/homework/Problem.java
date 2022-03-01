@@ -3,15 +3,19 @@ package lab2.homework;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * this class describes a problem (name, a list of rooms and a list of events)
+ */
 public class Problem {
-    private String name;
-    private List<Event> events = new ArrayList<>();
-    private List<Room> rooms = new ArrayList<>();
+    private final String name;
+    private final List<Event> events = new ArrayList<>();
+    private final List<Room> rooms = new ArrayList<>();
 
     Problem(String name) {
         this.name = name;
     }
 
+    // getters and setters for attributes
     public String getName() {
         return name;
     }

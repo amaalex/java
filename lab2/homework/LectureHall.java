@@ -1,7 +1,8 @@
 package lab2.homework;
 
-import java.util.Objects;
-
+/**
+ * this class is an extension from Room class, which has specific attributes
+ */
 public class LectureHall extends Room {
 
     Boolean hasVideoProhector;

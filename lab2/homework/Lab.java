@@ -1,7 +1,8 @@
 package lab2.homework;
 
-import java.util.Objects;
-
+/**
+ * this class is an extension from Room class, which has specific attributes
+ */
 public class Lab extends Room {
 
     String OS;
@@ -12,6 +13,7 @@ public class Lab extends Room {
         this.OS = OS;
     }
 
+    // getters and setters for attributes
     @Override
     public int getCapacity() {
         return super.getCapacity();

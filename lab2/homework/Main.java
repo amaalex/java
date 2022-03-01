@@ -1,14 +1,12 @@
 package lab2.homework;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
 public class Main {
     /**
      * creating the problem and its objects
-     * printing the objects
+     * creating an instance of the problem and generating a solution
      */
     public static void main(String[] args) {
 
@@ -27,9 +25,6 @@ public class Main {
         p1.addRoom(new Lab("405", 30, "MacOS"));
         p1.addRoom(new LectureHall("309", 100, Boolean.TRUE));
         p1.addRoom(new LectureHall("309", 100, Boolean.TRUE)); // duplicate
-
-        // System.out.println(p1.getEvents());
-        // System.out.println(p1.getRooms());
 
         Solution solution = new Solution(p1);
         Map<String, String> result = solution.computeGreedyMethod();

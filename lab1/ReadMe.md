@@ -1,5 +1,5 @@
 ## Status of the problems
 
-  - Compulsory - completed.
-  - Homework - completed.
-  - Bonus - partially completed.
+  - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
+  - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
+  - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)

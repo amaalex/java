@@ -1,6 +1,6 @@
 ## Status of the problems
 
 - Lab2:
-    - Compulsory - completed
-    - Homework - in progress
-    - Bonus - to do
+    - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
+    - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/80)
+    - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/1)

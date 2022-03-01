@@ -5,7 +5,7 @@
  
   - ✔️: Create a class to describe the solution.
   - ✔️: Implement a simple algorithm for creating a feasible solution to the problem, "trying" to minimize the number of used rooms.
-  - ❌: Write doc comments in your source code and generate the class documentation using javadoc.
+  - ✔️: Write doc comments in your source code and generate the class documentation using javadoc.
 
 
 ## Input Used:

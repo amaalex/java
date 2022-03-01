@@ -3,6 +3,7 @@ package lab2.homework;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 public class Main {
     /**
@@ -13,7 +14,7 @@ public class Main {
 
         Problem p1 = new Problem("P1");
 
-        p1.addEvent(new Event("C1", 100, 8, 8));
+        p1.addEvent(new Event("C1", 100, 8, 10));
         p1.addEvent(new Event("C2", 100, 10, 12));
         p1.addEvent(new Event("l1", 30, 8, 10));
         p1.addEvent(new Event("l2", 30, 8, 10));
@@ -27,9 +28,13 @@ public class Main {
         p1.addRoom(new LectureHall("309", 100, Boolean.TRUE));
         p1.addRoom(new LectureHall("309", 100, Boolean.TRUE)); // duplicate
 
-        System.out.println(p1.getEvents());
-        System.out.println(p1.getRooms());
+        // System.out.println(p1.getEvents());
+        // System.out.println(p1.getRooms());
 
+        Solution solution = new Solution(p1);
+        Map<String, String> result = solution.computeGreedyMethod();
+
+        System.out.println(List.of(result));
 
     }
 }

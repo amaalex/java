@@ -1,5 +1,7 @@
 package lab2.homework;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -8,6 +10,7 @@ import java.util.Objects;
 abstract class Room {
     protected String name;
     protected int capacity;
+    protected List<ArrayList<Integer>> interval = new ArrayList<>();
 
     // getters and setters for attributes
     public String getName() {

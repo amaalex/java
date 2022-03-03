@@ -31,13 +31,14 @@ public class Main {
         display.printAdjMatrix(adjMatrix);
 
         //Building Neighbors and Display
-        Map<String,List<String>> dataStructure;
+        Map<String, List<String>> dataStructure;
         dataStructure = builder.buildNeighbors(words, adjMatrix);
         display.printNeighbors(dataStructure);
 
         //End timer
         time.endTime();
         time.showTime();
+
     }
 
 }

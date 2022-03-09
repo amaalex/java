@@ -12,16 +12,12 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Network network = new Network();
-        network.addNote(new Computer("Computer A", "MAC1", "v1"));
-        network.addNote(new Router("Router A", "MAC2", "v2"));
+        network.addNote(new Computer("Computer A", "MAC1", "v1", "192.168.0.1"));
+        network.addNote(new Router("Router A", "MAC2", "v2", "192.168.0.3"));
         network.addNote(new Switch("Switch A", "MAC3", "v3"));
         network.addNote(new Switch("Switch B", "MAC4", "v4"));
-        network.addNote(new Router("Router B", "MAC5", "v5"));
-        network.addNote(new Computer("Computer B", "MAC6", "v6"));
-
-        for(Node node : network.getNodes()){
-            System.out.println(node);
-        }
+        network.addNote(new Router("Router B", "MAC5", "v5", "192.168.0.4"));
+        network.addNote(new Computer("Computer B", "MAC6", "v6", "192.168.0.2"));
 
         List<Node> nodes = network.getNodes();
         nodes.get(0).setCost(nodes.get(1), 10);
@@ -48,6 +44,6 @@ public class Main {
         nodes.get(5).setCost(nodes.get(3), 10);
         nodes.get(5).setCost(nodes.get(4), 20);
 
-        System.out.println(nodes.get(0).getCosts().values());
+        network.displayIdentifiableNodes();
     }
 }

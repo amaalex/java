@@ -47,6 +47,10 @@ public class Solution {
         return result;
     }
 
+    /**
+     * this methods gets the events and make a List of groups.
+     * each group has a list of events which have time conflicts
+     */
     public void computeDSaturMethod() {
         // grouping the events based on time conflicts. Mark the events if they become part of a group.
         List<List<Event>> groups = new ArrayList<>();

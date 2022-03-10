@@ -17,6 +17,7 @@ public class Main {
 
         p1.addEvent(new Event("C1", 100, 8, 10));
         p1.addEvent(new Event("C2", 100, 10, 12));
+        p1.addEvent(new Event("C3", 100, 9, 11)); // new
         p1.addEvent(new Event("l1", 30, 8, 10));
         p1.addEvent(new Event("l2", 30, 8, 10));
         p1.addEvent(new Event("l3", 30, 10, 12));
@@ -34,8 +35,10 @@ public class Main {
 
         System.out.println(List.of(result));
 
+        solution.computeDSaturMethod();
+
         timer.endTime();
-        timer.endTime();
+        timer.showTime();
 
     }
 }

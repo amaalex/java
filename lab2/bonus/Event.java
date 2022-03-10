@@ -10,6 +10,7 @@ public class Event {
     private int size;
     private int startTime;
     private int endTime;
+    public boolean isAssigned = false;
 
     // constructors
     Event(String name) {

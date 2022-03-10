@@ -12,4 +12,6 @@
 ## Ideas for how to approach the problem
 ![problem](https://user-images.githubusercontent.com/61457770/157676626-687bb8c9-9ccd-468d-82ef-51f12a54bcfc.jpg)
 
-## Output
+## Output of the groups made, but not the assigned rooms
+![image](https://user-images.githubusercontent.com/61457770/157686329-a8cf7dca-48bc-4fdb-a83a-64ee2cfd3c6b.png)
+

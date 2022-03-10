@@ -8,7 +8,7 @@
 - Lab2:
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
-    - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/30)
+    - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)
 
 - Lab1:
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)

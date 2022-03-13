@@ -1,7 +1,7 @@
 - Lab Status
 
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
-    - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/70)
+    - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
 
 # Problem Description
@@ -12,7 +12,7 @@
 
 ![image](https://user-images.githubusercontent.com/61457770/158057375-a3d16ae1-385e-4e11-90b6-8f2953370e7d.png)
 
-The main specifications of the application are: 
+- The main specifications of the application are: 
     - Compulsory: https://github.com/amaalex/java/tree/main/lab3/compulsory
     - Homework: https://github.com/amaalex/java/tree/main/lab3/homework
     - Bonus: https://github.com/amaalex/java/tree/main/lab3/bonus

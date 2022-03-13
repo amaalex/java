@@ -6,9 +6,9 @@
   - ✔️: Implement an efficient agorithm to determine all the shortests times required for data packets to travel from an identifiable node to another.
 
 ## Output
-  - 🟢Display the nodes from the network (before assigning the costs and edges)
   - 🟢Display the nodes with corresponding neighbors and costs
   - 🟢Display the Identifiable Nodes only
   - 🟢Display the minimum costs between Identifiable nodes
  
-![image](https://user-images.githubusercontent.com/61457770/158057162-6448f210-9733-4744-9e7b-7f6e4e4784e5.png)
+![image](https://user-images.githubusercontent.com/61457770/158057451-10137b39-83d4-4f69-8a76-9a23c343a90c.png)
+

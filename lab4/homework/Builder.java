@@ -14,6 +14,7 @@ public class Builder {
             faker.name().username(), faker.name().username(), faker.name().username(), faker.name().username(),
             faker.name().username(), faker.name().username(), faker.name().username(), faker.name().username(),
             faker.name().username());
+
     /**
      * this method builds a list of streets, along with the intersections which are connected to
      *

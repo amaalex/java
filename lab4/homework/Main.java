@@ -16,23 +16,23 @@ public class Main {
 
         City C1 = new City("C1", streets, intersections);
 
-        // iau intersectiile care au mai mult de 3 strazi
+        // Intersctions with more than 3 Streets
         List<String> filteredIntersections = intersections.stream()
                 .filter(intersection -> intersection.getStreets().size() > 3)
                 .map(Intersection::getName)
                 .toList();
 
-        // iau strazile si vad daca leaga acele intersectii
+        // Getting the Intersections needed
         List<Street> filteredStreets = streets.stream()
                 .filter(street -> filteredIntersections.contains(street.getIntersectionOne()))
                 .filter(street -> filteredIntersections.contains(street.getIntersectionTwo()))
                 .toList();
 
-        Display.displayStreets(filteredStreets);
-        
-        City city = new City("MyCity",streets, intersections);
-        List<Intersection> intersectionsNew = intersections.stream().toList();
+        // Display.displayStreets(filteredStreets);
+
+        City city = new City("MyCity", streets, intersections);
         Solution solution = new Solution(city);
-        solution.makeSomething();
+
+        Display.displaySolution(solution);
     }
 }

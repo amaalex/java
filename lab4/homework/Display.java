@@ -30,4 +30,14 @@ public class Display {
             System.out.println(intersection);
         }
     }
+
+    /**
+     * method used to display the solution of the problem
+     *
+     * @param solution the solution already made
+     */
+    public static void displaySolution(Solution solution) {
+        System.out.println("Total Length: " + solution.getTotalLengthFinal());
+        System.out.println("Visited Intersections: " + solution.getVisitedNodes());
+    }
 }

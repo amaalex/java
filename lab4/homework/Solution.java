@@ -17,14 +17,38 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * this class computes the solution based on Prim Idea for a given City.
+ */
 public class Solution {
     private final List<Intersection> intersections;
+    private int totalLengthFinal;
+    private List<Intersection> visitedNodes;
 
     public Solution(City city) {
         this.intersections = city.getIntersections().stream().toList();
+        solveTheProblem();
     }
 
-    public void makeSomething() {
+    public int getTotalLengthFinal() {
+        return totalLengthFinal;
+    }
+
+    public List<Intersection> getVisitedNodes() {
+        return visitedNodes;
+    }
+
+    /**
+     * this method solves the problem using Prime method for graphs.
+     * 1. List of Visited Intersections (one Intersection at the beginning)
+     * 2. Get the Neighbors for all visited Intersections
+     * 3. Get the lowest distance between a visited Node and a Neighbor
+     * 4. Set that Neighbor as Visited for future iterations.
+     * <p>
+     * 5. Sum the lowest chosen path / length for a specific iteration.
+     * Link: https://www.youtube.com/watch?v=cplfcGZmX7I
+     */
+    private void solveTheProblem() {
         int totalLength = 0;
         List<Intersection> visitedIntersections = new ArrayList<>();
         // adaug prima intersectie ca fiind vizitata, pentru ca de la ea pornesc.
@@ -67,19 +91,18 @@ public class Solution {
             totalLength += minLength;
         }
 
-        // returnez solutia
-        System.out.println(totalLength);
-        for (Intersection intersectionasdasd : visitedIntersections) {
-            System.out.print(intersectionasdasd.getName() + " ");
-        }
+        totalLengthFinal = totalLength;
+        visitedNodes = visitedIntersections;
+
     }
 
     /**
      * for a given intersection, return all neighbors (connected with a common street)
+     *
      * @param intersection an intersection
      * @return a Set of intersections containing the neighbors for a given Intersection
      */
-    public Set<Intersection> getNeighborsForIntersection(Intersection intersection) {
+    private Set<Intersection> getNeighborsForIntersection(Intersection intersection) {
         Set<Intersection> neighbors = new HashSet<>();
         Set<Street> streets = intersection.getStreets();
         for (Street street : streets) {
@@ -100,11 +123,12 @@ public class Solution {
     /**
      * this methods gets two intersections and returns the distance between them based on an existing street
      * if no street is available, Integer.MAX_VALUE will be returned.
+     *
      * @param A an intersection
      * @param B an intersection
      * @return the length between them, based on existing street
      */
-    public int getDistanceBetweenTwoIntersections(Intersection A, Intersection B) {
+    private int getDistanceBetweenTwoIntersections(Intersection A, Intersection B) {
         Set<Street> streetsA = A.getStreets();
         for (Street street : streetsA) {
             if (street.getIntersectionTwo().equals(B.getName()) && street.getIntersectionOne().equals(A.getName())) {
@@ -119,11 +143,12 @@ public class Solution {
 
     /**
      * this method returns the minimum distance between an intersections and all neighbors.
-     * @param base the intersection as a starting point
+     *
+     * @param base      the intersection as a starting point
      * @param neighbors a Set of neighbors
      * @return minimum distance, but minimum distance only, not along with the corresponding neighbor.
      */
-    public int getMinimumDistanceBetweenIntersections(Intersection base, Set<Intersection> neighbors) {
+    private int getMinimumDistanceBetweenIntersections(Intersection base, Set<Intersection> neighbors) {
         int minDistance = Integer.MAX_VALUE;
         for (Intersection intersection : neighbors) {
             if (getDistanceBetweenTwoIntersections(base, intersection) < minDistance) {
@@ -135,11 +160,12 @@ public class Solution {
 
     /**
      * this method return the nearest neighbor for a specific Intersection
-     * @param base the intersection as a starting point
+     *
+     * @param base      the intersection as a starting point
      * @param neighbors a Set of neighbors for that base
      * @return the nearest neighbor of the given Intersection
      */
-    public Intersection getClosestIntersection(Intersection base, Set<Intersection> neighbors) {
+    private Intersection getClosestIntersection(Intersection base, Set<Intersection> neighbors) {
         int minDistance = Integer.MAX_VALUE;
         Intersection nodeWithMinimalDistance = null;
         for (Intersection intersection : neighbors) {

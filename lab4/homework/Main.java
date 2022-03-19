@@ -29,5 +29,10 @@ public class Main {
                 .toList();
 
         Display.displayStreets(filteredStreets);
+        
+        City city = new City("MyCity",streets, intersections);
+        List<Intersection> intersectionsNew = intersections.stream().toList();
+        Solution solution = new Solution(city);
+        solution.makeSomething();
     }
 }

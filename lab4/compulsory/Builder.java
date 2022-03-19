@@ -1,3 +1,5 @@
+package compulsory;
+
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -52,7 +54,8 @@ public class Builder {
         intersections.add(new Intersection("I6"));
         intersections.add(new Intersection("I7"));
         intersections.add(new Intersection("I8")); // duplicate
-        intersections.add(new Intersection("I8")); // duplicate
+        intersections.add(new Intersection("I9"));
+        intersections.add(new Intersection("I9")); // duplicate
 
         return intersections;
     }

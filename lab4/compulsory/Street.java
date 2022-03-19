@@ -16,6 +16,13 @@ public class Street implements Comparable<Street> {
         join.put("I2", intersectionTwo);
     }
 
+    /**
+     * used for comparing two objects of type Street by length attribute
+     *
+     * @param o1 type Street
+     * @param o2 type Street
+     * @return the difference between o1.length and o2.length
+     */
     public static int compareByLength(Street o1, Street o2) {
         return o1.getLength() - o2.getLength();
     }

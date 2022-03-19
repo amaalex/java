@@ -13,4 +13,12 @@ public class City {
         this.streets = streets;
         this.intersections = intersections;
     }
+
+    public List<Street> getStreets() {
+        return streets;
+    }
+
+    public Set<Intersection> getIntersections() {
+        return intersections;
+    }
 }

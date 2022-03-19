@@ -1,4 +1,4 @@
-package compulsory;
+package homework;
 
 /**
  * Mindset:

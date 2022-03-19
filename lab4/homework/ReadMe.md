@@ -9,6 +9,6 @@
 
 (displaying all the streets that are longer than a specified value and join at least 3 streets.)
 
-![image](https://user-images.githubusercontent.com/61457770/159125705-9a602d28-f020-46b0-9d5c-6a4cf9b1341b.png)
+![image](https://user-images.githubusercontent.com/61457770/159125879-bab48488-9f30-4c60-bcc3-7f24a1aaa8b5.png)
       ![Screenshot_1](https://user-images.githubusercontent.com/61457770/159125795-3b561c44-c47b-4ab0-a5bc-c70508a923f3.png)
 

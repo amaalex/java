@@ -16,6 +16,10 @@ Note: am folosit numele strazilor / intersectiilor default pentru acest exemplu,
 - **Imagine suport:**
 <p align="center"><img src="https://user-images.githubusercontent.com/61457770/159135513-c5908415-ce86-4c1c-9531-6108d8b8cb07.png" width=35% height=35%></p>
 
+- Exemplu folosind Jack:
+  ![image](https://user-images.githubusercontent.com/61457770/159135924-687538fa-a8ca-423b-8a9e-50d05ff7fb41.png) 
+
+**===============================================================**
 
 (displaying all the streets that are longer than a specified value and join at least 3 streets.)
 

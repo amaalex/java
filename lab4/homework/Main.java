@@ -14,8 +14,6 @@ public class Main {
 
         streets.sort(Street::compareByLength);
 
-        City C1 = new City("C1", streets, intersections);
-
         // Intersctions with more than 3 Streets
         List<String> filteredIntersections = intersections.stream()
                 .filter(intersection -> intersection.getStreets().size() > 3)

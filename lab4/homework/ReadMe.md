@@ -7,6 +7,8 @@
   -  **Note** ✔️: A personal implementation of the algorithm will be will be scored extra (+1p).
   -  **Suport** : Am urmarit doar acest tutorial pentru a implementa codul: https://www.youtube.com/watch?v=cplfcGZmX7I
 
+## Lucruri modificate pe baza feedback-ului dat la Lab3:
+  - 
 ## Output
 
 (Problem solved using personal implementation)

@@ -3,6 +3,9 @@
 - ✔️ Represent the commands using classes instead of methods. Use an interface or an abstract class in order to desribe a generic command.
 - ✔️ Implement the commands load, list, view, report (create the classes AddCommand, ListCommand, etc.).
   - ✔️ list: prints the list of items on the screen;
+  - ✔️ add
+  - ✔️ save
+  - ✔️ load
   - ✔️ view: opens an item using the native operating system application (see the Desktop class);
   - ❌ report: creates (and opens) an HTML report representing the content of the catalog.\
   Use a template engine such as FreeMarker or Velocity, in order to create the HTML report.

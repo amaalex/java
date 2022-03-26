@@ -1,8 +1,6 @@
-package compulsory;
+package homework.items;
 
 import lombok.NoArgsConstructor;
-
-import java.io.Serializable;
 
 /**
  * this class describes how an item should look like

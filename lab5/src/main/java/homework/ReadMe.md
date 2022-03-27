@@ -22,4 +22,10 @@
 
 ## Cum am gandit problema
 
-## Output as text
+## Output
+
+1. opens an item using the native operating system application (desktop = Desktop.getDesktop();)
+
+2. creates (and opens) an HTML report representing the content of the catalog.
+
+3. list of items (ListCommand)

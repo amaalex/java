@@ -5,6 +5,7 @@
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
       - https://github.com/amaalex/java/tree/main/lab5/src/main/java/homework
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/25)
+      - https://github.com/amaalex/java/tree/main/lab5/src/main/java/bonus
 
 # Problem Description
 

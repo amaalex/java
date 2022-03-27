@@ -15,6 +15,7 @@
 - ✔️ The application will signal invalid date or the commands that are not valid using custom exceptions.
 - ✔️ The final form of the application will be an executable JAR archive. Identify the generated archive and launch the
   application from the console, using the JAR.
+    ![image](https://user-images.githubusercontent.com/61457770/160278639-415635b8-e071-4de4-ad8a-8960249f67ec.png)
 
 ## Bazat pe feedback-ul precedent:
 

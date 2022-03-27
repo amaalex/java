@@ -25,7 +25,12 @@
 ## Output
 
 1. opens an item using the native operating system application (desktop = Desktop.getDesktop();)
+![image](https://user-images.githubusercontent.com/61457770/160277525-59462222-882c-45d8-ac88-10692905ab2f.png)
+![image](https://user-images.githubusercontent.com/61457770/160277537-5748a675-254c-437c-8fc3-eb28099712e3.png)
 
 2. creates (and opens) an HTML report representing the content of the catalog.
+![image](https://user-images.githubusercontent.com/61457770/160277580-d075d950-e4e0-4fd1-a169-113e51cdd52a.png)
 
 3. list of items (ListCommand)
+![image](https://user-images.githubusercontent.com/61457770/160277600-bb341d20-3963-43a4-9abc-ca4a5b366bfa.png)
+

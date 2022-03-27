@@ -21,7 +21,15 @@
 - am grupat clasele in mai multe pachete in functie de responsabilitati
 
 ## Cum am gandit problema
+- Am nevoie sa apelez mai multe Comenzi cu diferiti parametri, si diferiti ca si numar. In cazul asta am declarat in
+interfata ca singurul contract pe care-l au de respectat comenzile este sa aiba metoda execute care sa primeasca Object.
+- Am grupat comportamentul comun in CommonBehaviour si am transformat toti parametrii intr-o lista
+de obiecte Object pe care fiecare metoda, in functie de arhitectura, va sti cum si cate dintre ele sa foloseasca.
+- La metodele in sine care extind CommonBehaviour, contractul este reprezentat de metoda run(), prin care se face Cast
+de la Object la cea ce stie metoda respectiva ca are nevoie. Se trateaza exceptiile corespunzator.
 
+In modul acesta m-am gandit ca o sa scap de cod duplicat, preiau functionalitatea comuna intr-o clasa abstracta si plec
+de la o interfata care sa dea contractul asupra modului in care ar trebui sa arate o comanda.
 ## Output
 
 1. opens an item using the native operating system application (desktop = Desktop.getDesktop();)

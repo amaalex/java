@@ -10,7 +10,7 @@
     - ✔️ view: opens an item using the native operating system application (see the Desktop class);
     - ✔️ report: creates (and opens) an HTML report representing the content of the catalog.\
       Use a template engine such as FreeMarker or Velocity, in order to create the HTML report.
-    - (+1p) Use Apache Tika in order to extract metadata from your catalog items and implement the command info in order
+    - ✔️ (+1p) Use Apache Tika in order to extract metadata from your catalog items and implement the command info in order
       to display them.
 - ✔️ The application will signal invalid date or the commands that are not valid using custom exceptions.
 - ✔️ The final form of the application will be an executable JAR archive. Identify the generated archive and launch the

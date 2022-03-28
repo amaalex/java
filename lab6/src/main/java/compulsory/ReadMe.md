@@ -14,3 +14,5 @@
 Din cauza unor bug-uri de sistem, mi se suprascriu random componentele si ramane black imaginea.
 Am mai intalnit asta la aplicatii care sunt scrise in Java, insa nu stiu cum sa rezolv problema.
 Mai jos arat cum am desenat liniile si coloanele, doar ca nu pot face expand la window.
+
+![image](https://user-images.githubusercontent.com/61457770/160475775-e43c9944-57d2-4085-a6fc-4fd275b72c35.png)

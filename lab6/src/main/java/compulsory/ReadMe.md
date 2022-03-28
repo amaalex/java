@@ -10,3 +10,7 @@
 
 <img width="375" alt="pic1" src="https://user-images.githubusercontent.com/61457770/160292763-99d11acb-097e-4dd7-afc8-9fabeb687d17.png">
 <img width="198" alt="2" src="https://user-images.githubusercontent.com/61457770/160292764-e3afd4c3-18c2-48ed-8a03-1d590ba427b9.png">
+
+Din cauza unor bug-uri de sistem, mi se suprascriu random componentele si ramane black imaginea.
+Am mai intalnit asta la aplicatii care sunt scrise in Java, insa nu stiu cum sa rezolv problema.
+Mai jos arat cum am desenat liniile si coloanele, doar ca nu pot face expand la window.

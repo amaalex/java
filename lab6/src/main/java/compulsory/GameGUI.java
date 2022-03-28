@@ -23,9 +23,19 @@ public class GameGUI extends JFrame{
     }
 
     public void paint(Graphics g){
+        int rows = 5;
+        int cols = 7;
+        int originX = 23;
+        int originY = 37;
+        int cellSide = 59;
         Graphics2D graphics2D = (Graphics2D) g;
-        graphics2D.setColor(Color.BLUE);
-        graphics2D.fillRect(100,50,60,80);
+        for (int i = 0; i < rows; i++){
+            g.drawLine(originX, originY + i * cellSide, originX + cols * cellSide, originY + i * cellSide);
+        }
+
+        for (int i = 0; i < 1; i++){
+            g.drawLine(originX, originY, originX, originY + rows);
+        }
     }
 
     private void createUIComponents() {

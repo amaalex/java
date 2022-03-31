@@ -8,6 +8,7 @@
 
 ## Output
 
+<img width="719" alt="proof" src="https://user-images.githubusercontent.com/61457770/161150532-1677d36e-5c4c-4af2-9a37-4a460d76f9e0.png">
 
 
 ## Incercari pana sa ajung la rezultat 

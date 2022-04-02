@@ -10,4 +10,4 @@ Homework (2p)
 
 ## Output
 (Kind of) random generation
-<img width="180" alt="2" src="https://user-images.githubusercontent.com/61457770/161393100-9c1e9c2a-2a77-49f3-aa9c-379424ad3327.png">
+<img width="280" alt="2" src="https://user-images.githubusercontent.com/61457770/161393100-9c1e9c2a-2a77-49f3-aa9c-379424ad3327.png">

@@ -9,3 +9,5 @@ Homework (2p)
     - ⛔ (+0.5p) Use object serialization in order to save and restore the current status of the game. 
 
 ## Output
+(Kind of) random generation
+![image](https://user-images.githubusercontent.com/61457770/161393100-9c1e9c2a-2a77-49f3-aa9c-379424ad3327.png)

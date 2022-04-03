@@ -2,12 +2,19 @@ package homework.panels;
 
 import homework.frames.MainFrame;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 
 /**
  * class used for creating the control buttons
  */
-public class ControlPanel extends JPanel {
+public class ControlPanel extends JPanel implements ActionListener{
     final MainFrame frame;
     JButton exitButton = new JButton("Exit");
     JButton loadButton = new JButton("Load");
@@ -15,7 +22,22 @@ public class ControlPanel extends JPanel {
 
     public ControlPanel(MainFrame frame) {
         this.frame = frame;
+        saveButton.addActionListener(this);
         init();
+    }
+
+    public void actionPerformed (ActionEvent e) {
+        if (e.getSource() == saveButton) {
+            BufferedImage image = new BufferedImage(frame.getWidth(), frame.getHeight(), BufferedImage.TYPE_INT_RGB);
+            Graphics2D g = image.createGraphics();
+            frame.printAll(g);
+            g.dispose();
+            try {
+                ImageIO.write(image, "png", new File("C:\\Users\\alexa\\Desktop\\game.png"));
+            } catch (IOException exp) {
+                exp.printStackTrace();
+            }
+        }
     }
 
     /**

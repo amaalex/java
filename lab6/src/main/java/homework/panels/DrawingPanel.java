@@ -74,7 +74,7 @@ public class DrawingPanel extends JPanel {
         Stroke stroke = new BasicStroke(2f);
         g.setStroke(stroke);
         for (int row = 0; row < rows; row++) {
-            int x1 = padX + random.nextInt(padX*5);
+            int x1 = padX + random.nextInt(padX * 5);
             int y1 = padY + row * cellHeight;
             int x2 = x1 * random.nextInt(5) + cellWidth;
             int y2 = y1;

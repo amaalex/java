@@ -2,38 +2,50 @@ package homework.logic;
 
 import java.util.Objects;
 
+/**
+ * This class describes a Player
+ */
 public class Player {
+    Boolean lastMove = false;
     private String name;
     private Integer color;
-    Boolean lastMove = false;
 
-    public Player(String name, String color){
+    public Player(String name, String color) {
         this.name = name;
-        if(color.equals("Red")){
+        if (color.equals("Red")) {
             this.color = 1;
-        }
-        else if (color.equals("Blue")){
+        } else if (color.equals("Blue")) {
             this.color = 2;
-        }
-        else{
+        } else {
             this.color = 0;
         }
-    }
-
-    public void setLastMove(Boolean lastMove) {
-        this.lastMove = lastMove;
     }
 
     public Boolean getLastMove() {
         return lastMove;
     }
 
+    /**
+     * marks that the player is making the last move (necessary for determing the winner)
+     *
+     * @param lastMove boolean value
+     */
+    public void setLastMove(Boolean lastMove) {
+        this.lastMove = lastMove;
+    }
+
     public Integer getColor() {
         return color;
     }
 
-
-    public void makeMove(Table table, int row, int column){
+    /**
+     * calls the processMove of the table which has default access restriction
+     *
+     * @param table  a table
+     * @param row    row on which the player has placed his color
+     * @param column column on which the player has placed his color
+     */
+    public void makeMove(Table table, int row, int column) {
         table.processMove(this, row, column);
     }
 

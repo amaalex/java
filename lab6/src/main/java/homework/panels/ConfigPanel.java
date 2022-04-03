@@ -1,4 +1,5 @@
 package homework.panels;
+
 import homework.frames.MainFrame;
 
 import javax.swing.*;

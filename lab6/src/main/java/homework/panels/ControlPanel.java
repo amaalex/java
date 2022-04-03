@@ -14,7 +14,7 @@ import java.io.IOException;
 /**
  * class used for creating the control buttons
  */
-public class ControlPanel extends JPanel implements ActionListener{
+public class ControlPanel extends JPanel implements ActionListener {
     final MainFrame frame;
     JButton exitButton = new JButton("Exit");
     JButton loadButton = new JButton("Load");
@@ -26,7 +26,12 @@ public class ControlPanel extends JPanel implements ActionListener{
         init();
     }
 
-    public void actionPerformed (ActionEvent e) {
+    /**
+     * wais for saveButton to be pressed in order to make a screenshot of the game and to save it on the disk
+     *
+     * @param e event based on the actionListener from the constructor
+     */
+    public void actionPerformed(ActionEvent e) {
         if (e.getSource() == saveButton) {
             BufferedImage image = new BufferedImage(frame.getWidth(), frame.getHeight(), BufferedImage.TYPE_INT_RGB);
             Graphics2D g = image.createGraphics();

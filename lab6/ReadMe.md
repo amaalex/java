@@ -1,8 +1,11 @@
 - Lab Status
 
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
-    - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
-    - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
+      - https://github.com/amaalex/java/tree/main/lab6/src/main/java/compulsory
+    - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)
+      - https://github.com/amaalex/java/tree/main/lab6/src/main/java/homework
+    - Extra
+      - https://github.com/amaalex/java/tree/main/lab6/src/main/java/extra
 
 ## Problem Description
 

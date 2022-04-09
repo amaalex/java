@@ -6,8 +6,8 @@ Time spent for Compulsory without breaks: 5 hours.
 - ✅ Use the naming conventions for writing Java code. "Naming conventions make programs more understandable by making them
   easier to read." (otherwise: -0.5 points)
 - ✅ Use appropriate collections in order to represent data (otherwise: -0.5 points)
-- Pay attention to exception handling (otherwise: -0.5 points)
-- Create your own types of exceptions to report abnormal events related to application execution.
+- ✅ Pay attention to exception handling (otherwise: -0.5 points)
+- ✅ Create your own types of exceptions to report abnormal events related to application execution.
 - ✅ Organize your classes and interfaces in packages.
 - ✅ ReadMe
 

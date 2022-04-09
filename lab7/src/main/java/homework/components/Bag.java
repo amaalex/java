@@ -1,4 +1,4 @@
-package compulsory.components;
+package homework.components;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +49,7 @@ public class Bag {
     /**
      * this method returns the size of the Bag
      *
-     * @return the size of the bag as int.
+     * @return the size of the Bag as int
      */
     public int getBagSize() {
         return this.tiles.size();

@@ -1,6 +1,6 @@
-package compulsory.components;
+package homework.components;
 
-import compulsory.Game;
+import homework.Game;
 
 import java.util.List;
 
@@ -21,7 +21,7 @@ public class Player implements Runnable {
      * @return true or false if the word has been uploaded on the table or not
      */
     private void submitWord() {
-        while (game.getBag().getBagSize() > 0) {
+        while(game.getBag().getBagSize() > 0) {
             List<Tile> extracted = game.getBag().extractTiles(7);
             if (extracted.isEmpty()) {
                 break;
@@ -31,6 +31,7 @@ public class Player implements Runnable {
                 generateWord.append(tile.getLetter());
             }
             String word = String.valueOf(generateWord);
+            System.out.println(this.name + " " + word);
             if (game.getDictionary().isWord(word)) {
                 game.getBoard().addWord(this, word);
             }

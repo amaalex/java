@@ -1,9 +1,8 @@
 package homework;
 
 import homework.components.threads.Player;
-import homework.components.threads.Time;
+import homework.components.threads.gameTimer;
 import homework.exceptions.BuildException;
-import homework.exceptions.GameException;
 
 import java.io.FileNotFoundException;
 import java.util.List;
@@ -22,7 +21,7 @@ public class Main {
         game.addPlayer(new Player("Player 1"));
         game.addPlayer(new Player("Player 2"));
         game.addPlayer(new Player("Player 3"));
-        new Time(10);
+        new gameTimer(10);
         game.play();
 
         List<Thread> generatedThreads = game.play();

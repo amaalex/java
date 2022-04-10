@@ -40,4 +40,6 @@ Time spent for Compulsory without breaks: 4 hours.
   - ce ar fi treubuit facut suplimentar aici este ca, pornind de la 2 litere, sa fac toate combinatiile de litere posibile astfel incat sa verific daca oricum ar fi interschimbate literele gasesc un cuvant sau nu in dictionar. Lipseste un algoritm de mix de litere si verificare cu dictionarul.
 
 # Output
-No output yet
+![image](https://user-images.githubusercontent.com/61457770/162619319-72e415f7-1d4d-4bd4-9dc5-2d39c31274c7.png)
+Points 0 pentru ca nu a fost niciun player care sa nimereasca vreun cuvant din dinctionarul format.
+Am folosit date hardcodate in timp ce lucram la tema (pentru validari) si a functionat corect.

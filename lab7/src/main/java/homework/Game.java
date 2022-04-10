@@ -2,13 +2,12 @@ package homework;
 
 import homework.builders.Builder;
 import homework.components.*;
+import homework.components.threads.Player;
 import homework.exceptions.BuildException;
-import homework.exceptions.GameException;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * this class describes the game
  */
@@ -30,7 +29,7 @@ public class Game {
         }
         this.bag = new Bag();
         List<Tile> uniqueTiles = Builder.buildUniqueTiles();
-        for(Tile tile : uniqueTiles){
+        for (Tile tile : uniqueTiles) {
             bag.addTileMultipleTimes(tile, tile.getTimesToBeAdded());
         }
 
@@ -49,10 +48,14 @@ public class Game {
     /**
      * starts the game for Players using Threads
      */
-    public void play() {
+    public List<Thread> play() throws InterruptedException {
+        List<Thread> threadList = new ArrayList<>();
         for (Player player : players) {
-            new Thread(player).start();
+            Thread a1 = new Thread(player);
+            a1.start();
+            threadList.add(a1);
         }
+        return threadList;
     }
 
     public Bag getBag() {
@@ -68,14 +71,12 @@ public class Game {
     }
 
     /**
-     * Main method using for initialization
+     * this method will create a sorted list of players based on their scores / points
+     *
+     * @return the player with the biggest score.
      */
-    public static void main(String[] args) throws GameException, FileNotFoundException, BuildException {
-        Game game = new Game();
-        game.addPlayer(new Player("Player 1"));
-        game.addPlayer(new Player("Player 2"));
-        game.addPlayer(new Player("Player 3"));
-        game.play();
-        game.getBoard().calculatePoints();
+    public Player getWinner() {
+        List<Player> players = this.players.stream().sorted(Player::sortByPoints).toList();
+        return players.get(players.size() - 1);
     }
 }

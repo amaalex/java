@@ -22,6 +22,11 @@ public class Tile {
         return letter;
     }
 
+    /**
+     * returns how many of times an existing tile should be added in the bag
+     *
+     * @return int timesToBeAdded
+     */
     public int getTimesToBeAdded() {
         return timesToBeAdded;
     }

@@ -1,7 +1,10 @@
 package homework.exceptions;
 
-public class BuildException extends  Exception{
-    public BuildException(String message){
+/**
+ * Exception during the build timea
+ */
+public class BuildException extends Exception {
+    public BuildException(String message) {
         super(message);
     }
 }

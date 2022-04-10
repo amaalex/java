@@ -1,4 +1,4 @@
-Time spent for Compulsory without breaks: 2 hours.
+Time spent for Compulsory without breaks: 4 hours.
 
 # Requirements:
 
@@ -10,6 +10,7 @@ Time spent for Compulsory without breaks: 2 hours.
 - ✅ Create your own types of exceptions to report abnormal events related to application execution.
 - ✅ Organize your classes and interfaces in packages.
 - ✅ ReadMe
+- ✅ Logging
 
 # Problem Description
 
@@ -29,9 +30,14 @@ Time spent for Compulsory without breaks: 2 hours.
 #### pentru task-ul de mai sus am folosit generator de cuvinte, dependinta urmatoare: https://github.com/mdeanda/lorem
 
 
-* Implement the scoring and determine who the winner is at the end of the game.
-* Make sure that players wait their turns, using a wait-notify approach.
-* Implement a timekeeper thread that runs concurrently with the player threads, as a daemon. This thread will display the running time of the game and it will stop the game if it exceeds a certain time limit.
+* ✅ Implement the scoring and determine who the winner is at the end of the game.
+* ✅ Make sure that players wait their turns, using a wait-notify approach.
+* ✅ Implement a timekeeper thread that runs concurrently with the player threads, as a daemon. This thread will display the running time of the game and it will stop the game if it exceeds a certain time limit.
+
+####Singura validare care nu e facuta:
+  - cand playerul isi ia literele, eu fac un cuvant pentru acel player din toate literele extrase in ordinea in care au fost extrase.
+  - daca acel cuvant se afla in dictionar, este punctat, iar daca nu, nu.
+  - ce ar fi treubuit facut suplimentar aici este ca, pornind de la 2 litere, sa fac toate combinatiile de litere posibile astfel incat sa verific daca oricum ar fi interschimbate literele gasesc un cuvant sau nu in dictionar. Lipseste un algoritm de mix de litere si verificare cu dictionarul.
 
 # Output
 No output yet

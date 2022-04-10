@@ -32,10 +32,6 @@ public class Dictionary {
         this.words.add(word);
     }
 
-    public List<String> getWords() {
-        return words;
-    }
-
     @Override
     public String toString() {
         return "Dictionary{" + "words=" + words + '}';

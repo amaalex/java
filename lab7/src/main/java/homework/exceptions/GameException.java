@@ -1,7 +1,10 @@
 package homework.exceptions;
 
-public class GameException extends Exception{
-    public GameException(String message){
+/**
+ * Exception if something happens during the game
+ */
+public class GameException extends Exception {
+    public GameException(String message) {
         super(message);
     }
 }

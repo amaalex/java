@@ -9,6 +9,7 @@ import java.util.Random;
  */
 public class Bag {
     private final List<Tile> tiles;
+    private boolean available = true;
 
     public Bag() {
         this.tiles = new ArrayList<>();
@@ -35,6 +36,14 @@ public class Bag {
      * @return a list of random extracted tiles
      */
     public synchronized List<Tile> extractTiles(int howMany) {
+        while (!available) {
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        available = false;
         List<Tile> extracted = new ArrayList<>();
         Random random = new Random();
         for (int i = 0; i < howMany; i++) {
@@ -43,6 +52,8 @@ public class Bag {
             }
             extracted.add(this.tiles.remove(random.nextInt(this.tiles.size())));
         }
+        available = true;
+        notifyAll();
         return extracted;
     }
 

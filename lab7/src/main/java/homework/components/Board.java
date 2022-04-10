@@ -1,6 +1,9 @@
 package homework.components;
 
+import homework.components.threads.Player;
+
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -21,7 +24,12 @@ public class Board {
         this.words.put(player, word);
     }
 
-    public void calculatePoints(){
-        words.entrySet().stream().forEach(input -> System.out.println(input.getKey() + input.getValue()));
+    public void getPoints(Player player, List<Tile> tiles) {
+        int totalWordPoints = 0;
+        for (Tile tile : tiles) {
+            totalWordPoints += tile.getPoints();
+        }
+        player.updatePoints(totalWordPoints);
     }
+
 }

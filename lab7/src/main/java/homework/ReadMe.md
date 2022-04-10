@@ -41,5 +41,5 @@ Time spent for Compulsory without breaks: 4 hours.
 
 # Output
 ![image](https://user-images.githubusercontent.com/61457770/162619319-72e415f7-1d4d-4bd4-9dc5-2d39c31274c7.png)
-Points 0 pentru ca nu a fost niciun player care sa nimereasca vreun cuvant din dinctionarul format.
+- Points 0 pentru ca nu a fost niciun player care sa nimereasca vreun cuvant din dinctionarul format.
 Am folosit date hardcodate in timp ce lucram la tema (pentru validari) si a functionat corect.

@@ -1,17 +1,14 @@
-package compulsory;
+package homework;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-class Database {
+public class Database {
     private static final String URL = "jdbc:postgresql://localhost:5432/speedy";
     private static final String USER = "speedy";
     private static final String PASSWORD = "";
     private static Connection connection = null;
-
-    private Database() {
-    }
 
     /**
      * This method returns the connection stored in static memory of the Database class
@@ -45,6 +42,4 @@ class Database {
             Database.connection.close();
         }
     }
-
-
 }

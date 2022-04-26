@@ -5,10 +5,10 @@
   easier to read." (otherwise: -0.5 points)
 - ✅ Use appropriate collections in order to represent data (otherwise: -0.5 points)
 - ✅ Pay attention to exception handling (otherwise: -0.5 points)
-- ✅ Create your own types of exceptions to report abnormal events related to application execution.
-- ✅ Organize your classes and interfaces in packages.
+- N/A Create your own types of exceptions to report abnormal events related to application execution.
+- N/A Organize your classes and interfaces in packages.
 - ✅ ReadMe
-
+ 
 # Problem Description
 
 - ✅ Create a relational database using any RDBMS (Oracle, Postgres, MySql, Java DB, etc.).

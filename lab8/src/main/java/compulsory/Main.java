@@ -4,7 +4,7 @@ import java.sql.SQLException;
 
 public class Main {
     public static void main(String[] args) {
-        try{
+        try {
             var continents = new ContinentDAO();
             continents.create("Europe");
             Database.getConnection().commit();
@@ -15,11 +15,9 @@ public class Main {
             countries.create("Ukraine", europeId);
             Database.getConnection().commit();
 
-            // TODO: print all the countries in EUROPE
-
             Database.getConnection().close();
 
-        } catch (SQLException e){
+        } catch (SQLException e) {
             System.err.println(e);
             // Database.rollback();
         }

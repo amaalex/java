@@ -2,6 +2,7 @@ package homework.DAO;
 
 import homework.Database;
 
+import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 
 public class CountryDAO {
@@ -31,8 +32,9 @@ public class CountryDAO {
         Connection con = Database.getConnection();
         try (PreparedStatement pstmt = con.prepareStatement("INSERT INTO countries (name) VALUES (?)")) {
             pstmt.setString(1, name);
-            pstmt.executeUpdate();
+            pstmt.execute();
         }
+        con.commit();
     }
 
     /**
@@ -49,10 +51,6 @@ public class CountryDAO {
             ResultSet rs = pstmt.executeQuery();
             return rs.next() ? rs.getInt(1) : null;
         }
-//        try (Statement stmt = con.createStatement();
-//             ResultSet rs = stmt.executeQuery("select id from countries where name='" + name + "'")) {
-//            return rs.next() ? rs.getInt(1) : null;
-//        }
     }
 
     /**

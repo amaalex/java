@@ -21,6 +21,7 @@ public class CitiesDAO {
             pstmt.setFloat(4, longitude);
             pstmt.executeUpdate();
         }
+        con.commit();
     }
 
     /**

@@ -53,4 +53,34 @@ public class CitiesDAO {
             return rs.next() ? rs.getString(1) : null;
         }
     }
+
+    /**
+     * this method returns the latitude value for a specific city
+     *
+     * @param name name of the City
+     * @return the corresponding latitude
+     * @throws SQLException exception
+     */
+    public float getLatitudeFromCity(String name) throws SQLException {
+        Connection con = Database.getConnection();
+        try (Statement stmt = con.createStatement();
+             ResultSet rs = stmt.executeQuery("select latitude from cities where name='" + name + "'")) {
+            return rs.next() ? rs.getFloat(1) : null;
+        }
+    }
+
+    /**
+     * this method returns the longitude value for a specific city
+     *
+     * @param name name of the City
+     * @return the specific longitude
+     * @throws SQLException exception
+     */
+    public float getLongitudeFromCity(String name) throws SQLException {
+        Connection con = Database.getConnection();
+        try (Statement stmt = con.createStatement();
+             ResultSet rs = stmt.executeQuery("select latitude from cities where name='" + name + "'")) {
+            return rs.next() ? rs.getFloat(1) : null;
+        }
+    }
 }

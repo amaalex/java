@@ -11,6 +11,10 @@ public class Main {
         new Tool().addCountriesIntoDatabase(importLocation);
         new Tool().addCitiesIntoDatabase(importLocation);
 
+        double distance = new Tool().calculateDistancesBetweenTwoCities("Bucharest", "Paris");
+
+        Display.displayDistanceInConsole(distance);
+
         Database.closeConnection();
     }
 }

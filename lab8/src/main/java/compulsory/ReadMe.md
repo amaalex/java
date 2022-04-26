@@ -17,7 +17,7 @@
 - ✅ Write an SQL script that will create the following tables:
   - countries: id, name, code, continent
   - continents: id, name
-  - <img width="600" alt="image" src="https://user-images.githubusercontent.com/61457770/165181193-ca4f7b78-1b1d-44ea-bc80-70491ca25c1a.png">
+  - <img width="600" alt="image" src="https://user-images.githubusercontent.com/61457770/165288690-ada59548-7f46-495c-adfc-8a8f824b703c.png">
   - <img width="700" alt="image" src="https://user-images.githubusercontent.com/61457770/165181374-a645c8e9-1110-42f6-a154-e614a6299775.png">
 
 - ✅ Update pom.xml, in order to add the database driver to the project libraries.
@@ -28,3 +28,4 @@
 - ✅ Implement a simple test using your classes.
 
 # Output
+<img width="748" alt="image" src="https://user-images.githubusercontent.com/61457770/165288525-2a699815-f524-4d7d-86d7-7047eea2bf08.png">

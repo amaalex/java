@@ -19,3 +19,12 @@
 - (+1p) Create a 2D map (using Swing or JavaFX) and draw on it the cities at their corresponding locations.
 
 # Output
+
+## Creating tables and inserting data from csv file
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/61457770/165341831-3eee5f1d-c6d8-4455-a8b7-01d1b60dbe0c.png">
+
+## Showing data stored
+
+<img width="542" alt="image" src="https://user-images.githubusercontent.com/61457770/165341980-cdba004c-cd49-4a4c-a0e9-a4d98fb712aa.png">
+
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/61457770/165342043-a735469f-c645-470a-9163-5feb7465a323.png">

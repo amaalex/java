@@ -18,3 +18,4 @@
 - ❌ Using Bron Kerbosch algorithm determine the sets of cities (inclusionwise maximal, with at least 3 elements) that are all sisters with each other.
 
 # Output
+<img width="647" alt="image" src="https://user-images.githubusercontent.com/61457770/165393571-514c8dc9-eeb0-4179-aa07-61764528270a.png">

@@ -19,7 +19,6 @@ public class Database {
      * @return the connection
      */
     public static Connection getConnection() {
-        Database.createConnection();
         return Database.connection;
     }
 

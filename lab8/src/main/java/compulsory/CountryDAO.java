@@ -12,7 +12,7 @@ public class CountryDAO {
      */
     public void create(String name, int continentID) throws SQLException {
         Connection con = Database.getConnection();
-        try (PreparedStatement pstmt = con.prepareStatement("insert into countries (name), (continentID) values (?), (?)")) {
+        try (PreparedStatement pstmt = con.prepareStatement("insert into countries values ((?), (?))")) {
             pstmt.setString(1, name);
             pstmt.setInt(2, continentID);
             pstmt.executeUpdate();

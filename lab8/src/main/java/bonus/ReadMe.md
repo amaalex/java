@@ -13,8 +13,7 @@
 # Problem Description
 
 - ✅ Use a connection pool in order to manage database connections, such as C3PO, HikariCP or Apache Commons DBCP.
-- ❌ Two cities are sisters (or twins) if they have a form of legal or social agreement between for the purpose of promoting cultural and commercial ties.
-- ❌ Using a ThreadPoolExecutor create and insert into your database a large number of fake cities (≥1000) and random sister relationships among them (the sisterhood probability should be low).
+- ❌ Two cities are sisters (or twins) if they have a form of legal or social agreement between for the purpose of promoting cultural and commercial ties. Using a ThreadPoolExecutor create and insert into your database a large number of fake cities (≥1000) and random sister relationships among them (the sisterhood probability should be low).
 - ❌ Using Bron Kerbosch algorithm determine the sets of cities (inclusionwise maximal, with at least 3 elements) that are all sisters with each other.
 
 # Output

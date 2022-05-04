@@ -4,7 +4,7 @@
         - https://github.com/amaalex/java/tree/main/lab8/src/main/java/compulsory
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
         - https://github.com/amaalex/java/tree/main/lab8/src/main/java/homework
-    - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/25)
+    - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/75)
         - https://github.com/amaalex/java/tree/main/lab8/src/main/java/bonus
 
 ## Problem description

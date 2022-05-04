@@ -3,6 +3,9 @@ package bonus;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+
 /**
  * this class initiates a connection using Hikari
  */
@@ -18,5 +21,9 @@ public class Database {
         config.addDataSourceProperty("maximumPoolSize", "25");
 
         Database.dataSource = new HikariDataSource(config);
+    }
+
+    public static Connection getConnection() throws SQLException {
+        return dataSource.getConnection();
     }
 }

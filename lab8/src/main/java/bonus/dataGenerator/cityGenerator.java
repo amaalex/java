@@ -34,7 +34,7 @@ class cityGenerator implements Runnable {
      */
     @Override
     public void run() {
-        for (int times = 0; times < 100; times++) {
+        for (int times = 0; times < 1100; times++) {
             this.generateCities();
             times++;
         }

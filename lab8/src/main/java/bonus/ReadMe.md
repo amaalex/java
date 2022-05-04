@@ -5,9 +5,9 @@
 - ✅ Use the naming conventions for writing Java code. "Naming conventions make programs more understandable by making them
   easier to read." (otherwise: -0.5 points)
 - ✅ Use appropriate collections in order to represent data (otherwise: -0.5 points)
-- N/A Pay attention to exception handling (otherwise: -0.5 points)
+- ✅ Pay attention to exception handling (otherwise: -0.5 points)
 - N/A Create your own types of exceptions to report abnormal events related to application execution.
-- N/A Organize your classes and interfaces in packages.
+- ✅ Organize your classes and interfaces in packages.
 - ✅ ReadMe
 
 # Problem Description

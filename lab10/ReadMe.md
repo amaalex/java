@@ -2,7 +2,7 @@
 
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
       - https://github.com/amaalex/java/tree/main/lab10/compulsory
-    - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)
+    - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/75)
       - 
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
       - 

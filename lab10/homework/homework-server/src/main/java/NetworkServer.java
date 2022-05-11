@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.SocketException;
 import java.util.Scanner;
 
 public class NetworkServer {
@@ -26,6 +27,7 @@ public class NetworkServer {
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
+            System.out.println("Finally here");
             server.stop();
         }
     }
@@ -47,5 +49,15 @@ public class NetworkServer {
     private String readFromKeyboard() {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
+    }
+
+    /**
+     * this method will end the .accept() loop from ServerSocket.
+     * active thread will continue to run, the server will accept one more thread
+     * the server will be closed when all threads are done
+     * @throws SocketException exception
+     */
+    public static void closeAcceptConnections() throws SocketException {
+        serverSocket.setSoTimeout(1000); // accept() nu va mai rula
     }
 }

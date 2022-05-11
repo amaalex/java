@@ -48,13 +48,9 @@ public class ClientThread extends Thread {
                 String response = null;
                 System.out.println("Server received the request..." + request);
                 if (request.equals("stop")) {
-                    resetTimer();
-                    System.out.println("Server stopped");
+                    System.out.println("Server is will accept one more connection and the accept() method will be off.");
                     try {
-                        in.close();
-                        out.close();
-                        socket.close();
-                        break;
+                        NetworkServer.closeAcceptConnections();
                     } catch (IOException e) {
                         e.printStackTrace();
                     }

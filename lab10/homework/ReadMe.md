@@ -19,3 +19,4 @@
 - (+0.5p) Upload a HTML document containing the social network representation directly from the application to a Web server. You may use JCraft for connecting to a server using SFTP and transferring a file (or a similar solution).
 
 # Output
+<img width="1400" alt="Screenshot 2022-05-11 at 17 36 11" src="https://user-images.githubusercontent.com/61457770/167877081-29ec715c-ac2f-490a-bcd5-60b0418c2d48.png">

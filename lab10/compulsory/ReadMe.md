@@ -18,3 +18,15 @@
 - ✅ A client will read commands from the keyboard and it will send them to the server. The client stops when it reads from the keyboard the string "exit".
 
 # Output
+- Server:
+  - ![image](https://user-images.githubusercontent.com/61457770/167467547-23cf8003-353a-4b26-a606-6cc529124b1c.png)
+
+- Client sending a command:
+  - ![image](https://user-images.githubusercontent.com/61457770/167467640-94585c12-1f61-4c8a-a8ed-7b30e5ac8ed3.png)
+
+- Server receiving the command:
+  - ![image](https://user-images.githubusercontent.com/61457770/167467693-bdbc93ec-82c1-49d5-9bd3-75cac1be85ed.png)
+
+- Client exit:
+  - ![image](https://user-images.githubusercontent.com/61457770/167467737-0f4c8dd0-4384-49df-94a2-8f3471d33ecc.png)
+

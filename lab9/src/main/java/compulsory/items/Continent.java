@@ -1,20 +1,27 @@
 package compulsory.items;
 
+import lombok.*;
+
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Set;
 
-/**
- * Queries and database mapping
- */
+@Getter
+@Setter
+@NoArgsConstructor
+
 @Entity
 @Table(name = "continents")
 @NamedQueries({
-        @NamedQuery(name = "Continent.findAll", query = "select e from Continent e order by e.name"),
+        @NamedQuery(name = "Continent.findAll",
+                query = "select e from Continent e order by e.name"),
+        @NamedQuery(name = "Continent.findById", query = "select e from Continent e where e.id = :id"),
+
+        @NamedQuery(name = "Continent.findByName", query = "select e from Continent e where e.name = :name"),
+
+        @NamedQuery(name = "Continent.findByNamePattern", query = "select e from Continent e where e.name like :pattern")
 })
 
-/**
- * this class describes a continent and its relations
- */
 public class Continent implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "id")
@@ -24,26 +31,11 @@ public class Continent implements Serializable {
     @Column(name = "name")
     private String name;
 
-    public Continent() {
-    }
+    @OneToMany(mappedBy="continent", cascade=CascadeType.MERGE)
+    private Set<Country> countries;
 
-    public Continent(String name) {
+    public Continent(String name){
         this.name = name;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        return "Continent{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
-    }
 }

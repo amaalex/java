@@ -8,9 +8,6 @@ import javax.persistence.EntityManagerFactory;
 
 public class Main {
     public static void main(String[] args) {
-
-        GlobalManagement.initializeEntityManagerFactory();
-
         EntityManagerFactory emf = GlobalManagement.getEntityManagerFactory();
 
         EntityManager em = emf.createEntityManager();
@@ -29,3 +26,4 @@ public class Main {
         GlobalManagement.closeEntityManagerFactory();
     }
 }
+

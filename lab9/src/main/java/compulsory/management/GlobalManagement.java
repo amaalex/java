@@ -1,5 +1,7 @@
 package compulsory.management;
 
+import net.bytebuddy.agent.builder.AgentBuilder;
+
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
@@ -8,13 +10,10 @@ import javax.persistence.Persistence;
  */
 public class GlobalManagement {
     private static EntityManagerFactory emf = null;
+    private static GlobalManagement singleInstance = null;
 
-    /**
-     * creating the EntityManagerFactory
-     *
-     */
-    public static void initializeEntityManagerFactory() {
-        GlobalManagement.emf = Persistence.createEntityManagerFactory("ExamplePU");
+    private GlobalManagement(){
+        GlobalManagement.emf = Persistence.createEntityManagerFactory("appPU");
     }
 
     /**
@@ -23,6 +22,9 @@ public class GlobalManagement {
      * @return reference
      */
     public static EntityManagerFactory getEntityManagerFactory() {
+        if(singleInstance == null){
+            singleInstance = new GlobalManagement();
+        }
         return GlobalManagement.emf;
     }
 

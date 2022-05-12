@@ -1,56 +1,55 @@
 package compulsory.items;
 
+import lombok.*;
+
 import javax.persistence.*;
+import java.io.Serializable;
+import java.util.Set;
 
 /**
  * Queries and database mapping
  */
+@Getter
+@Setter
+
 @Entity
-@Table(name = "cities")
+@Table(name = "countries")
 @NamedQueries({
         @NamedQuery(name = "Country.findAll", query = "select e from Country e order by e.name"),
 
-        @NamedQuery(name = "Country.findByCountry", query = "select e from Country e where e.country = ?1"),
+        @NamedQuery(name = "Country.findByName", query = "select e from Country e where e.name = :name"),
 
-        @NamedQuery(name = "Country.findByName", query = "select e from Country e where e.name = ?1")
+
+        @NamedQuery(name = "Country.findByNamePattern", query = "select e from Country e where e.name like :pattern"),
+
+        @NamedQuery(name = "Country.findById", query = "select e from Country e where e.id = :id")
 })
 
 /**
  * this class describes a country and its relations
  */
-public class Country {
+public class Country implements Serializable {
     @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
 
     private String name;
+
     @ManyToOne
-    @JoinColumn(name = "continent_id")
+    @JoinColumn(name = "continent_id", nullable=false)
     private Continent continent;
 
-    Country() {
+    @OneToMany(mappedBy="country", cascade=CascadeType.MERGE)
+    private Set<City> cities;
+
+    public Country() {
 
     }
 
-    Country(String name, Continent continent) {
+    public Country(String name, Continent continent) {
         this.name = name;
         this.continent = continent;
-    }
-
-    public Continent getContinent() {
-        return continent;
-    }
-
-    public void setContinent(Continent continent) {
-        this.continent = continent;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
     }
 
     @Override

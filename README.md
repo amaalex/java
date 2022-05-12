@@ -5,10 +5,10 @@
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
 
-- Lab9:
+- Lab9 - **PREZENTAT IN CLASA**:
   - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
-  - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
-  - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
+  - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
+  - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
 - Lab8:
   - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)

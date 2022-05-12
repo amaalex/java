@@ -34,8 +34,7 @@ public class NetworkClient {
                     out.close();
                     socket.close();
                     break;
-                }
-                else {
+                } else {
                     client.sendRequest(request);
                 }
             }

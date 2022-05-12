@@ -30,7 +30,7 @@ public class ClientThread extends Thread {
                 String request = in.readLine();
                 if (request == null)
                     break;
-                if(System.currentTimeMillis() > end){
+                if (System.currentTimeMillis() > end) {
                     try {
                         out.println("A trecut prea mult timp de la ultima comanda. S-a inchis socket-ul.");
                         System.out.println("A trecut prea mult timp de la ultima comanda. S-a inchis socket-ul.");
@@ -41,8 +41,7 @@ public class ClientThread extends Thread {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                }
-                else{
+                } else {
                     System.out.println("Testele continua");
                 }
                 String response = null;
@@ -54,38 +53,35 @@ public class ClientThread extends Thread {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                }
-                else if (request.contains("register")){
+                } else if (request.contains("register")) {
                     resetTimer();
                     boolean personAlreadyExists = false;
-                    for (Person person : SocialNetwork.getNetwork()){
-                        if(person.getName().equals(request.substring(9))){
+                    for (Person person : SocialNetwork.getNetwork()) {
+                        if (person.getName().equals(request.substring(9))) {
                             response = "This name already exists in our Network.";
                             personAlreadyExists = true;
                         }
                     }
-                    if(!personAlreadyExists) {
+                    if (!personAlreadyExists) {
                         SocialNetwork.addPersonToNetwork(new Person(request.substring(9)));
-                            response = "Register ok";
+                        response = "Register ok";
                     }
-                }
-                else if (request.contains("login")){
+                } else if (request.contains("login")) {
                     resetTimer();
                     boolean connected = false;
-                    for (Person person : SocialNetwork.getNetwork()){
-                        if(person.getName().equals(request.substring(6))){
+                    for (Person person : SocialNetwork.getNetwork()) {
+                        if (person.getName().equals(request.substring(6))) {
                             this.person = person;
                             response = ("Client connected as person: " + person.getName());
                             connected = true;
                         }
                     }
-                    if(!connected){
+                    if (!connected) {
                         response = "Login failed. The account may not exist or something was wrong.";
                     }
-                }
-                else if (request.contains("friend")){
+                } else if (request.contains("friend")) {
                     resetTimer();
-                    if(this.person != null) {
+                    if (this.person != null) {
                         boolean personExists = false;
                         for (Person person : SocialNetwork.getNetwork()) {
                             if (person.getName().equals(request.substring(7))) {
@@ -95,33 +91,29 @@ public class ClientThread extends Thread {
                             }
                         }
                         if (!personExists) {
-                           response = "The person requested is not registered in our Network";
+                            response = "The person requested is not registered in our Network";
                         }
-                    }
-                    else {
+                    } else {
                         response = "You should be logged for adding new friends";
                     }
-                }
-                else if (request.equals("displaymylist")){
+                } else if (request.equals("displaymylist")) {
                     resetTimer();
                     System.out.println(this.person.getFriends());
-                }
-                else if (request.contains("send")){
+                } else if (request.contains("send")) {
                     resetTimer();
                     String message = request.substring(5);
-                    for(Person person : this.person.getFriends()){
+                    for (Person person : this.person.getFriends()) {
                         person.addMessage(message);
                     }
                     response = "Message successfully sent";
-                }
-                else if (request.contains("read")){
+                } else if (request.contains("read")) {
                     resetTimer();
-                    for(String message : this.person.getMessages()){
+                    for (String message : this.person.getMessages()) {
                         response = message;
                         out.println(response);
                     }
                 }
-                if(response == null){
+                if (response == null) {
                     response = "Nothing from server at this moment";
                 }
                 out.println(response);
@@ -133,7 +125,7 @@ public class ClientThread extends Thread {
 
     }
 
-    private void resetTimer(){
+    private void resetTimer() {
         this.start = System.currentTimeMillis();
         this.end = this.start + 30 * 1000;
     }

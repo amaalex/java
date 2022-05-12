@@ -7,7 +7,7 @@ public class Person {
 
     private List<String> messages = null;
 
-    public Person(String name){
+    public Person(String name) {
         this.name = name;
         this.friends = new ArrayList<>();
         this.messages = new ArrayList<>();
@@ -15,30 +15,34 @@ public class Person {
 
     /**
      * this method adds a person in the friend list
+     *
      * @param person an object of type Person
      */
-    public void addFriend(Person person){
+    public void addFriend(Person person) {
         friends.add(person);
     }
 
     /**
      * this method returns the list of friends for a specific person
+     *
      * @return list of Person
      */
-    public List<Person> getFriends(){
+    public List<Person> getFriends() {
         return friends;
     }
 
     /**
      * this method adds a message to inbox
+     *
      * @param message String
      */
-    public void addMessage(String message){
+    public void addMessage(String message) {
         this.messages.add(message);
     }
 
     /**
      * this method returns all messages that a Person have
+     *
      * @return list of String
      */
     public List<String> getMessages() {

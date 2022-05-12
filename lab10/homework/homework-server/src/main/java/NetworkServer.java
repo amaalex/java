@@ -55,6 +55,7 @@ public class NetworkServer {
      * this method will end the .accept() loop from ServerSocket.
      * active thread will continue to run, the server will accept one more thread
      * the server will be closed when all threads are done
+     *
      * @throws SocketException exception
      */
     public static void closeAcceptConnections() throws SocketException {

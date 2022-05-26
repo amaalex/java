@@ -1,13 +1,13 @@
 ## Punctaj aproximat bazat pe autoevaluare:
 Lab1 (corectat): 5 / Lab2 (corectat): 4,25 / Lab3 (corectat): 3,25 / Lab4 (corectat): 4,25 \
 Lab5 (**necorectat**): 3,5 / Lab6 (**necorectat**): 1,25 / Lab7 (**necorectat**): 3 / Lab8 (**necorectat**): 3,5 \
-Lab9 (corectat): 5 / Lab10 (corectat): 3 / Lab11 (**necorectat**): 4 \
+Lab9 (corectat): 5 / Lab10 (corectat): 3 / Lab11 (corectat): 5 \
 
-### Punctaj total aproximat: 40
+### Punctaj total aproximat: 41
 
 ## Status of the problems
 
-- Lab11 (**necorectat**):
+- **[PREZENTAT IN CLASA]** Lab11 (corectat):
   - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/75)
@@ -43,7 +43,7 @@ Lab9 (corectat): 5 / Lab10 (corectat): 3 / Lab11 (**necorectat**): 4 \
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/25)
 
-- Lab4 (corectat):
+- **[PREZENTAT IN CLASA]** Lab4:
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
@@ -58,7 +58,7 @@ Lab9 (corectat): 5 / Lab10 (corectat): 3 / Lab11 (**necorectat**): 4 \
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)
 
-- Lab1 (corectat):
+- **[PREZENTAT IN CLASA]** Lab1:
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)

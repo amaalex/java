@@ -7,7 +7,7 @@ Lab9 (corectat): 5 / Lab10 (corectat): 3 / Lab11 (**necorectat**): 4 \
 
 ## Status of the problems
 
-- Lab11:
+- Lab11 (necorectat):
   - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/75)
@@ -22,43 +22,43 @@ Lab9 (corectat): 5 / Lab10 (corectat): 3 / Lab11 (**necorectat**): 4 \
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
-- Lab8:
+- Lab8 (necorectat):
   - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/75)
 
-- Lab7:
+- Lab7 (necorectat):
   - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
 
-- Lab6:
+- Lab6 (necorectat):
   - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
   - Extra - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
-- Lab5:
+- Lab5 (necorectat):
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/25)
 
-- Lab4:
+- Lab4 (corectat):
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
 
-- Lab3:
+- Lab3 (corectat):
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
 
-- Lab2:
+- Lab2 (corectat):
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)
 
-- Lab1:
+- Lab1 (corectat):
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)

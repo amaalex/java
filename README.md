@@ -7,7 +7,7 @@ Lab9 (corectat): 5 / Lab10 (corectat): 3 / Lab11 (**necorectat**): 4 \
 
 ## Status of the problems
 
-- Lab11 (necorectat):
+- Lab11 (**necorectat**):
   - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/75)
@@ -22,23 +22,23 @@ Lab9 (corectat): 5 / Lab10 (corectat): 3 / Lab11 (**necorectat**): 4 \
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
-- Lab8 (necorectat):
+- Lab8 (**necorectat**):
   - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/75)
 
-- Lab7 (necorectat):
+- Lab7 (**necorectat**):
   - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
 
-- Lab6 (necorectat):
+- Lab6 (**necorectat**):
   - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
   - Extra - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
-- Lab5 (necorectat):
+- Lab5 (**necorectat**):
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/25)

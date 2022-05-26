@@ -7,7 +7,7 @@ Lab9 (corectat): 5 / Lab10 (corectat): 3 / Lab11 (corectat): 5 \
 
 ## Status of the problems
 
-- **[PREZENTAT IN CLASA]** Lab11 (corectat):
+- **[PREZENTAT IN CLASA]** Lab11:
   - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/75)

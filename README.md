@@ -1,9 +1,9 @@
 ## Punctaj aproximat bazat pe autoevaluare:
 Lab1 (corectat): 5 / Lab2 (corectat): 4,25 / Lab3 (corectat): 3,25 / Lab4 (corectat): 4,25 \
-Lab5 (**necorectat**): 3,5 / Lab6 (**necorectat**): 1,25 / Lab7 (**necorectat**): 3 / Lab8 (**necorectat**): 3,5 \
+Lab5 (corectat): 4,5 / Lab6 (**necorectat**): 1,25 / Lab7 (**necorectat**): 3 / Lab8 (**necorectat**): 3,5 \
 Lab9 (corectat): 5 / Lab10 (corectat): 3 / Lab11 (corectat): 5 \
 
-### Punctaj total aproximat: 41
+### Punctaj total aproximat: 42.5
 
 ## Status of the problems
 
@@ -38,7 +38,7 @@ Lab9 (corectat): 5 / Lab10 (corectat): 3 / Lab11 (corectat): 5 \
   - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)
   - Extra - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
-- Lab5 (**necorectat**):
+- Lab5 (corectat):
     - Compulsory - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Homework - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
     - Bonus - ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/25)
